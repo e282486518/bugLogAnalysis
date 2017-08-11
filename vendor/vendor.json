@@ -1,0 +1,47 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"path": "appengine/cloudsql",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "ByKUif8nlp3zcdOWB3sHa1RkJBI=",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": "3955978caca48c1658a4bb7a9c6a0f084e326af3",
+			"revisionTime": "2017-07-15T19:24:08Z"
+		},
+		{
+			"checksumSHA1": "xK3F96mg/E250hfDk44ntwBp5Vk=",
+			"path": "github.com/jinzhu/gorm",
+			"revision": "6f64b8610da6d5214e9197ed3c1bf8ecf8983c89",
+			"revisionTime": "2017-08-01T23:05:11Z"
+		},
+		{
+			"checksumSHA1": "tUQ1pHvWxAcPFmveZtlmCR9H4TY=",
+			"path": "github.com/jinzhu/inflection",
+			"revision": "1c35d901db3da928c72a72d8458480cc9ade058f",
+			"revisionTime": "2017-01-02T12:52:26Z"
+		},
+		{
+			"checksumSHA1": "L0i3W5A4DlPYT648m6tewQZElvk=",
+			"path": "gopkg.in/alexcesaro/quotedprintable.v3",
+			"revision": "2caba252f4dc53eaf6b553000885530023f54623",
+			"revisionTime": "2015-07-16T17:19:45Z"
+		},
+		{
+			"checksumSHA1": "Q24+t5ryUvt5JJPtPKim1q8hwmI=",
+			"path": "gopkg.in/gomail.v2",
+			"revision": "81ebce5c23dfd25c6c67194b37d3dd3f338c98b1",
+			"revisionTime": "2016-04-11T21:29:32Z"
+		},
+		{
+			"checksumSHA1": "ia1WFuoN7kU0Nv7IPdOucWP7/j4=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "25c4ec802a7d637f88d584ab26798e94ad14c13b",
+			"revisionTime": "2017-07-21T12:20:51Z"
+		}
+	],
+	"rootPath": "bugLogAnalysis"
+}

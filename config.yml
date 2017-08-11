@@ -1,0 +1,29 @@
+# 邮件接收方
+mailto:
+  - bug1@qq.com
+  - bug2@foxmail.com
+
+# 邮件发送方
+smtp:
+  host: smtp.qq.com
+  port: 465
+  username: company
+  password: U0mkqxxxxxx
+
+# 数据库
+db:
+  host: 127.0.0.1:3306
+  username: root
+  password: root
+  dbname: bugsdb
+
+# 日志目录和BUG关键词，path为绝对路径
+logfile:
+  - api: 'api/public/UploadImage'
+    path: 'E:/www/go/src/bugLogAnalysis/logs/file1/'
+    keyword: ['上传成功','上传失败']
+
+  - api: 'api/public/UploadMultiImage'
+    path: 'E:/www/go/src/bugLogAnalysis/logs/file2/'
+    keyword: ['上传成功','上传失败','其他文件上传']
+
